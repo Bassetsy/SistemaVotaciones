@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://images8.alphacoders.com/111/thumb-1920-1114654.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.904);
+    position: fixed;
+    top: 100px;
+    padding: 30px;
+    margin: auto;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 22px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.grupo {
+    position: relative;
+    margin: 35px;
+}
+
+input {
+    outline: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px 10px 5px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input :focus {
+    color: red;
+}
+
+.dato {
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~.dato,
+input:valid~.dato {
+    top: -15px;
+    font-size: 13px;
+    color: rgb(0, 0, 150);
+}
+
+.barra {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(55, 0, 252);
+    transition: 0.5s ease width;
+    left: 0;
+}
+
+input:focus~.barra::before {
+    width: 100%;
+}
+
+.finish {
+    font-family: cursive;
+    background-color: rgba(1, 1, 156, 0.788);
+    border: none;
+    border-radius: 20px;
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.finish:hover {
+    background-color: rgb(17, 0, 255);
+}

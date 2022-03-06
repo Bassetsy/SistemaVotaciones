@@ -1,0 +1,114 @@
+.UrnaUno {
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 530px;
+    width: 300px;
+    border-color: black;
+    position: fixed;
+    left: 280px;
+    top: 70px;
+    border-style: groove;
+    border-radius: 8px;
+    border-color: black;
+    align-items: center;
+}
+
+.UrnaDos {
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 530px;
+    width: 300px;
+    position: fixed;
+    left: 800px;
+    top: 70px;
+    border-style: groove;
+    border-radius: 8px;
+    border-color: black;
+    align-items: center;
+}
+
+.icon-dislike {
+    border-style: groove;
+    border-color: rgb(61, 0, 0);
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.397);
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.icon-like {
+    border-style: groove;
+    border-color: rgb(1, 44, 0);
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 85, 0.411);
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.icon-dislike:hover {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+
+.icon-like:hover {
+    background-color: green;
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+
+h1 {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgConcursante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: midnightblue;
+}
+
+a:hover {
+    color: blue;
+}
+
+.ButtonsUrna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+Body {
+    background-image: url(https://images5.alphacoders.com/101/thumb-1920-1014466.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2,
+p {
+    font-family: cursive;
+    text-align: center;
+}
+
+.imgName {
+    position: fixed;
+    left: 1240px;
+    top: 10px;
+}

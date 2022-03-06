@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Votaciones</title>
+    <script src="assets/js/Script.js" type="text/javascript" defer></script>
+    <link href="assets/css/StyleMenu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/StyleVotos.css">
+    <link rel="stylesheet" href="assets/css/fontello.css">
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <h1>vs</h1>
+    <img class="imgName" src="assets/img/DemonSlayer.png">
+    <div class="ContenedorMenu">
+        <input type="checkbox" id="btn-mas">
+        <div class="Opciones">
+            <a href="registro.html" class="icon-add"></a>
+            <a href="index.html" class="icon-votar"></a>
+            <a href="estadisticas.html" class="icon-stadistic"></a>
+        </div>
+        <div class="btn-mas"><label for="btn-mas" class="icon-plus"></label></div>
+    </div>
+    <div class="UrnaUno">
+        <h2>Sanemi </h2>
+        <p>Pilar de Viento</p>
+        <a onclick="mostrarInfoConcursanteUno('Uno')">Ver más...</a>
+        <div class="ContenedorImg">
+            <img class="imgConcursante" src="assets/img/Sanemi_anime.png">
+        </div>
+        <div class="ButtonsUrna">
+            <button class="icon-like" onclick="sumarLike('Uno');mostrarConfirmation()"> 
+            </button>
+            <button class="icon-dislike" onclick="sumarDislike('Uno');mostrarConfirmation()"> </button>
+        </div>
+
+    </div>
+    <div class="UrnaDos">
+        <h2>Gyutaro</h2>
+        <p>Luna Superior seis</p>
+        <a onclick="mostrarInfoConcursanteDos('Dos')">Ver más...</a>
+        <div class="ContenedorImg">
+            <img class="imgConcursante" src="assets/img/Gyutaro_Anime.png">
+        </div>
+        <div class="ButtonsUrna">
+            <button class="icon-like" onclick="sumarLike('Dos');mostrarConfirmation()"></button>
+            <button class="icon-dislike" onclick="sumarDislike('Dos');mostrarConfirmation()"></button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/SweetAlert.js"></script>
+    <script src="assets/js/Script.js"></script>
+</body>
+
+</html>
