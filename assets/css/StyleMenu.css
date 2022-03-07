@@ -18,7 +18,7 @@
 .icon-plus {
     display: block;
     text-decoration: none;
-    background-color: rgb(139, 0, 0);
+    background-color: rgb(175, 4, 4);
     color: white;
     width: 50px;
     height: 50px;
@@ -37,7 +37,7 @@
 
 .Opciones a:hover {
     background-color: white;
-    color: rgb(139, 0, 0);
+    color: rgb(163, 4, 4);
 }
 
 .Opciones a {
@@ -54,7 +54,7 @@
 
 .icon-plus {
     cursor: pointer;
-    background: rgb(112, 25, 25);
+    background: rgb(170, 22, 22);
     font-size: 15px;
 }
 

@@ -2,13 +2,12 @@
     background-color: rgba(255, 255, 255, 0.863);
     height: 530px;
     width: 300px;
-    border-color: black;
     position: fixed;
     left: 280px;
     top: 70px;
     border-style: groove;
     border-radius: 8px;
-    border-color: black;
+    border-color: rgb(139, 0, 0);
     align-items: center;
 }
 
@@ -21,7 +20,7 @@
     top: 70px;
     border-style: groove;
     border-radius: 8px;
-    border-color: black;
+    border-color: rgb(158, 2, 2);
     align-items: center;
 }
 
